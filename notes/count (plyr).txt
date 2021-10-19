@@ -1,0 +1,3 @@
+Count function from 'plyr' package
+---*---*---
+The 'count' function is present in the 'plyr' package. It accepts one argument, that being the vector of values. The return value of the function is a data frame containing the frequency corresponding to each value. The values are under the field 'x' and the frequencies are under the field 'freq'.
