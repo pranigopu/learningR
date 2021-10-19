@@ -1,0 +1,10 @@
+PURPOSE OF AOV
+---*---*---
+Fits an analysis of variance model to the given data by a call to lm for each stratum. Note that lm is a function that creates a linear regression between two variables.
+
+I assume that in this case, for each call, the response variable's observed values are the values for a particular level of the independent variable. I also assume that the regressor in each case simply becomes a set of indices... [TO BE CONFIRMED]
+---*---*---
+The aov function performs ANOVA analysis for the different levels of the independent variable, with respect to the dependent variable. Then, returns the derived values, particularly
+- F-value
+- Probability of F-value exceeding table value
+  --When estimated generally for any sample--

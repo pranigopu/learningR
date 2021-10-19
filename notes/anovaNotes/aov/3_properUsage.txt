@@ -1,0 +1,38 @@
+PROPER USAGE
+1. Independent variable as factor type
+2. Summary of test values
+3. Alternate approach
+---*---*---
+NOTE:
+___
+factor / factor variable => independent variable
+factor / factor data type => discrete non-numeric value
+
+The are not synonymous. So, to avoid confusion, I will not refer to independent variables as factors or factor variables.
+---*---*---
+1.
+INDEPENDENT VARIABLE AS FACTOR TYPE
+___
+For the levels of the independent variable (i.e. treatment or variety) to be treated as levels, you must convert the values to factor values i.e. non-numeric.
+
+This is vital, since aov calls lm, and if lm encounters the independent variables values as numeric, it will create a single linear regression model between the independent variable and the response. Making the independent variable values as factors makes each lm call make a separate linear regression model for each level i.e. each value of the independent variable i.e. each class.
+
+Note that levels of a factor are, for all practical purposes, factors in ANOVA test, since each level represents a different class.
+---*---*---
+2.
+SUMMARY OF TEST VALUES
+___
+To see all the values of the model returned by this function, use the summary function on its return value, as in...
+
+aovModel = aov(y ~ x, myData)
+summary(aovModel)
+---*---*---
+3.
+ALTERNATIVE APPROACH
+___
+An alternate and equivalent way to perform ANOVA through aov, given factor x and response y, is as follows...
+linearRegressionModel = lm(y ~ x)
+aovModel = aov(linearRegressionModel)
+
+Or to combine...
+aovModel = aov(lm(y ~ x))

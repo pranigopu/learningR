@@ -1,0 +1,7 @@
+SYNTAX
+---*---*---
+aov(dependentVariable ~ independentVariable, dataSet)
+dependentVariable => response variable
+independentVariable => factor variable
+
+An independent variable in this case would either be a treatment or variety set. I will refer to independent variables as such, not factors, to avoid confusion with factor data type.

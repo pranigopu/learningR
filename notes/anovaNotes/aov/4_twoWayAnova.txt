@@ -1,0 +1,8 @@
+2-WAY ANOVA
+---*---*---
+To perform two-way ANOVA, we run the following...
+aov(y ~ x1 + x2)
+where y is the response, and x1 and x2 are the factors. As usual, both x1 and x2 must be categorical data (factor data type) for correct results.
+___
+To also test the significance of the interaction between x1 and x2 (i.e. to see whether x1 and x2 together be said to have a particular impact on y), we do...
+aov(y ~ x1 + x2 + x1:x2)
