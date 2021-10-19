@@ -1,0 +1,9 @@
+Maximum likelihood estimation
+---*---*---
+DEFINITION
+___
+One method of estimating the parameters of the distribution that produces a given sample is the maximum likelihood estimation.
+---*---*---
+EXAMPLE
+___
+Take a sample of n students and give them 1 question to answer. We need to estimate the parameters of the distribution of the answering time.

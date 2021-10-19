@@ -1,0 +1,19 @@
+Starting letters for distribution functions in R
+1. r
+2. p
+3. d
+---*---*---
+1. r
+___
+Putting 'r' before the distribution function's name means the function now randomly generates a value based on the distribution.
+___
+e.g.
+--x--
+rnorm(n = 10, mean = 3, variance = 3) 
+randomly generates 10 values of a variable following a normal distriution with the given mean and variance.
+--x--
+rpois(n = 100, lambda = 4)
+randomly generates 100 values of a variable following a poisson distriution with the given lambda.
+---*---*---
+2. p
+___

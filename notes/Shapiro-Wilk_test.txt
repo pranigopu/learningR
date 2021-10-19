@@ -1,0 +1,22 @@
+Shapiro-Wilk test
+---*---*---
+This is a test to check if a data set follows normal distribution.
+---*---*---
+STEP 1
+Write H_0 (null hypothesis) as...
+"Data is distributed normally"
+___
+STEP 2
+Write H_1 (alternative hypothesis) as...
+"Data is not distributed normally"
+___
+STEP 3
+Type...
+shapiro.test()
+___
+STEP 4
+Look at the p value which is derived.
+--x--
+If p > 0.05, H_0 is accepted.
+If p < 0.05, H_0 is rejected and accept H_1.
+If p = 0.05, answer is ambiguous.

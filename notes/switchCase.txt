@@ -1,0 +1,24 @@
+Switch-case in R
+---*---*---
+In general, switch -case statements are a substitute for long if-else statements that compare a variable to several integral values. They allow a variable to be tested for equality against a list of values.
+___
+In R, switch-case is a function with the following properties...
+- An expression type with character string always matched to the listed cases.
+- An expression which is not a character string then this exp is coerced to integer.
+- For multiple matches, the first match element will be used.
+- No default argument case is available there in R switch case.
+- An unnamed case can be used, if there is no matched case.
+
+It has the following arguments...
+switch(expression, case1, case2, case3...)
+--x--
+Each case is an equality, such as
+"a" = 3
+For this case, if the expression is matched with "a", the switch function returns 3. Here is a fuller example...
+--x--
+c = "x"
+p = switch(c, "x" = 1, "y" = 2, "z" = 3)
+print(p)
+......
+Output:
+1

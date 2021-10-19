@@ -1,0 +1,8 @@
+Factor function
+---*---*---
+Factors in R are stored as a vector of integer values with a corresponding set of character values to use when the factor is displayed. The factor function is used to create a factor. The only required argument to factor is a vector of values which will be returned as a vector of factor values.
+___
+Additionally, you may list out the possible values and the corresponding labels of your choice using the options levels and labels, as in the following example...
+x = factor(myData,
+	   levels = c(0.5, 1, 2),
+	   labels = c("HalfDose", "FullDose", "DoubleDose"))

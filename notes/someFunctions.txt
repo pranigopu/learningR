@@ -1,0 +1,6 @@
+Some functions
+---*---*---
+1.
+unique
+___
+unique(collection) returns all the unique values in "collection".

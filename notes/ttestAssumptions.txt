@@ -1,0 +1,19 @@
+ASSUMPTIONS FOR PAIRED T-TEST
+
+We use paired t-test, which assumes the following:
+1. Samples are taken from normal distributions
+   (This is checked using Shapiro-Wilk test)
+2. Each sample's each observation is independently drawn
+3. Sample values are taken from populations with the same variances
+   (This is checked using F-test)
+4. There are no outliers
+   (This is checked using boxplot)
+------------
+ASSUMPTIONS FOR OTHER T-TESTS
+
+We use paired t-test, which assumes the following:
+1. Samples are taken from normal distributions
+   (This is checked using Shapiro-Wilk test)
+2. Each sample's each observation is independently drawn
+3. There are no outliers
+   (This is checked using boxplot)
