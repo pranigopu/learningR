@@ -1,0 +1,47 @@
+Tukey test
+---*---*---
+DESCRIPTION
+___
+Tukey test allows to find pairs of factor levels whose means are significantly different from each other, comparing all possible pairs of means with a t-test like method.
+
+Tukey test is a single-step multiple comparison procedure and statistical test. It is a post-hoc analysis method, what means that it is used in conjunction with an ANOVA.
+---*---*---
+INSTALLATION
+___
+In R, the multcompView package allows to run the Tukey test thanks to the TukeyHSD() function. If this package is not installed in your machine, use the function
+install.packages(multcompView)
+---*---*---
+USAGE
+___
+TukeyHSD(x = aovModel, conf.level = 0.95)
+
+aovModel is the ANOVA model, which can also be the return value of the aov function.
+conf.level refers to the confidence interval.
+
+Note that the independent variable's values, or levels in this case, must be in factor type i.e. non-numeric. You must have changed or kept the factor levels (or the x-values) to factor type using the as.factor method before the ANOVA test itself.
+---*---*---
+INTERPRETATION
+___
+For our purposes, we will only focus on the left-most and right-most columns i.e. the pair of factor levels and the adjusted p-value for that pair of factor levels. As usual, compare the adjusted p-value to the significance level. If the p-value is greater, then the difference between the means of that pair of levels is insignificant, or else if the p-value is lesser, the difference is significant.
+___
+EXTRA NOTE ON ADJUSTED P-VALUE
+--x--
+The adjusted p (p adj) value is the smallest significance level at which a particular comparison will be declared statistically significant as part of the multiple comparison testing. For example, say for the 1st pair 2-1 (where the levels are 1 and 2), p adj = 0.7, meaning if the difference between the means of 2 and 1 is to be considered statistically significant, then you must choose a significance level of at least 0.7.
+
+However, if our chosen significance level is 0.05 or 5%, it is way below the required minimum in this case. Hence, with 0.05 or 5% significance, the difference is not considered statistically significant i.e. the difference is within the range from which the values (differences between means here) are expected to occur 95% of the time (confidence interval is 95%, hence the range of ‘non-outlier’ values, as determined by us, covers 95% of the most probably occurring values).
+---*---*---
+EXTRA NOTES DEALING WITH TUKEY HSD OBJECT
+___
+To access a particular column, from the TukeyHSD object t, say the adjusted p-value or 'p adj' (which is column 4 in the object), we may do one of the following
+--x--
+t$x[,'p adj']
+t$x[,4]
+--x--
+t$x[,] accesses all the columns of the object.
+___
+CONVERTING TO DATAFRAME FOR EASE OF HANDLING...
+--x--
+t = TukeyHSD(x = aovModel, conf.level = 0.95)
+t = as.data.frame(t$x[,])
+--x--
+Of course, we may turn one or more columns alone into dataframes too.

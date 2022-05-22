@@ -1,0 +1,59 @@
+AOV (Analysis of variance) - Table of contents and consolidated document
+1. Syntax
+2. Purpose
+3. Proper usage
+	3.1. Independent variable as factor type
+	3.2. Summary of test values
+	3.3. Alternate approach
+---*---*---
+SYNTAX
+___
+aov(dependentVariable ~ independentVariable, dataSet)
+dependentVariable => response variable
+independentVariable => factor variable
+
+An independent variable in this case would either be a treatment or variety set. I will refer to independent variables as such, not factors, to avoid confusion with factor data type.
+---*---*---
+PURPOSE
+___
+Fits an analysis of variance model to the given data by a call to lm for each stratum. Note that lm is a function that creates a linear regression between two variables.
+
+I assume that in this case, for each call, the response variable's observed values are the values for a particular level of the independent variable. I also assume that the regressor in each case simply becomes a set of indices... [TO BE CONFIRMED]
+___
+The aov function performs ANOVA analysis for the different levels of the independent variable, with respect to the dependent variable. Then, returns the derived values, particularly
+- F-value
+- Probability of F-value exceeding table value
+  --When estimated generally for any sample--
+---*---*---
+PROPER USAGE
+___
+NOTE:
+--x--
+factor / factor variable => independent variable
+factor / factor data type => discrete non-numeric value
+
+The are not synonymous. So, to avoid confusion, I will not refer to independent variables as factors or factor variables.
+___
+INDEPENDENT VARIABLE AS FACTOR TYPE
+--x--
+For the levels of the independent variable (i.e. treatment or variety) to be treated as levels, you must convert the values to factor values i.e. non-numeric.
+
+This is vital, since aov calls lm, and if lm encounters the independent variables values as numeric, it will create a single linear regression model between the independent variable and the response. Making the independent variable values as factors makes each lm call make a separate linear regression model for each level i.e. each value of the independent variable i.e. each class.
+
+Note that levels of a factor are, for all practical purposes, factors in ANOVA test, since each level represents a different class.
+___
+SUMMARY OF TEST VALUES
+--x--
+To see all the values of the model returned by this function, use the summary function on its return value, as in...
+
+aovModel = aov(y ~ x, myData)
+summary(aovModel)
+___
+ALTERNATIVE APPROACH
+--x--
+An alternate and equivalent way to perform ANOVA through aov, given factor x and response y, is as follows...
+linearRegressionModel = lm(y ~ x)
+aovModel = aov(linearRegressionModel)
+
+Or to combine...
+aovModel = aov(lm(y ~ x))

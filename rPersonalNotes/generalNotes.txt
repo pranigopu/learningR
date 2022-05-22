@@ -1,0 +1,59 @@
+General notes
+---*---*---
+1.
+Data frame or matrix column selections
+___
+Say you have a matrix or data frame "dataFrame".
+dataFrame[a:b] selects column from a to b (inclusive).
+dataFrame[a] selects column a.
+dataFrame[c(a, b, c)] selects columns a, b and c specifically.
+---*---*---
+2.
+Chain assignment
+___
+You can assign multiple variables to the same value at once, as...
+a = b = c = 4
+---*---*---
+3.
+Plotting options
+___
+type => the kind of plot. "p" means points, "l" means lines
+col => colour
+pch => point character type
+las => the type of orientation of the labels on the axes
+---*---*---
+4.
+Plotting in a grid
+___
+Combining multiple plots in a n x m grid (n rows and m columns) can be done by running
+par(mfrow = c(n, m))
+before plotting.
+---*---*---
+4.
+Printing in R
+___
+R provides the paste method to print output with string and variable together. This method defined inside the print function. The paste function converts its arguments to character strings. One can also use  the paste0 method.
+___
+It is used as follows
+print(paste(arg1, arg2...))
+
+The arguments for paste can be variables or strings in any order. They will be put into a string in the order you enter the arguments in. Each argument is automatically separated by a space.
+___
+NOTE:
+The difference between paste and paste0 is that the argument sep by default is " " in paste and "" (null character) in paste0.
+---*---*---
+5.
+Return value of user-defined functions
+___
+You need not use any keyword such as "return" to send back a value from the function's execution. The last expression becomes the return value.
+___
+For example...
+f = function(x)
+{
+	x * x
+}
+myValue = f(2)
+print(myValue)
+--x--
+Output:
+4

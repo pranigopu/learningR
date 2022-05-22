@@ -1,0 +1,91 @@
+﻿Date,Location,Inside.Outside,Mortality.Seizure,State.Code,State,Sex,Age
+01/03/19,Pench,Inside Tiger Reserve,Mortality,MH,Maharashtra,NA,NA
+01/04/19,"Maharashtra ,East Melgaht",Outside Tiger Reserve,Mortality,MH,Maharashtra,NA,2.3
+01/05/19,Kanha,Inside Tiger Reserve,Mortality,MP,Madhya Pradesh,NA,7.8
+01/11/19,"Maharashtra,Amravati",Outside Tiger Reserve,Mortality,MH,Maharashtra,NA,4
+01/19/2019,Periyar,Inside Tiger Reserve,Mortality,KR,Kerala,Male,10.4
+01/19/2019,Kanha,Inside Tiger Reserve,Mortality,MP,Madhya Pradesh,Male,2
+01/20/2019,Jim Corbett,Inside Tiger Reserve,Mortality,UT,Uttarakhand,Male,NA
+01/24/2019,"MP,Compt No. 81, Kuthi Tola Beat",Outside Tiger Reserve,Mortality,MP,Madhya Pradesh,NA,6
+01/31/2019,Ranthambore,Inside Tiger Reserve,Mortality,RJ,Rajasthan,NA,4
+02/06/19,"Sathyamangalam,Patra Mangalam Beat",Inside Tiger Reserve,Mortality,TN,Tamil Nadu,NA,NA
+02/12/19,"Gujarat,Mahisagar",Outside Tiger Reserve,Mortality,GJ,Gujarat,NA,NA
+02/13/2019,"Kaziranga,Bagori Range",Inside Tiger Reserve,Mortality,AS,Assam,Male,4
+02/21/2019,"MP,Compt No. 783, Dindori Division",Outside Tiger Reserve,Mortality,MP,Madhya Pradesh,Male,5
+02/22/2019,Bhadra,Inside Tiger Reserve,Mortality,KA,Karnataka,Male,NA
+02/26/2019,"Kanha,Kanhari Beat",Inside Tiger Reserve,Mortality,MP,Madhya Pradesh,Male,2
+02/26/2019,"Kanha,Kanhari Beat",Inside Tiger Reserve,Mortality,MP,Madhya Pradesh,Male,1
+02/28/2019,"MP,Bahiyar  Range, Balaghat",Outside Tiger Reserve,Mortality,MP,Madhya Pradesh,NA,NA
+02/28/2019,Pench,Inside Tiger Reserve,Mortality,MP,Madhya Pradesh,Male,1
+03/03/19,Melghat,Inside Tiger Reserve,Mortality,MH,Maharashtra,Female,1.5
+03/04/19,"Jim Corbett,Sonanadi Range, Compt No. 6",Inside Tiger Reserve,Mortality,UT,Uttarakhand,NA,NA
+03/06/19,"Pench,Khursapar",Inside Tiger Reserve,Mortality,MH,Maharashtra,Female,7
+03/06/19,"Pench,Khawasa",Inside Tiger Reserve,Mortality,MP,Madhya Pradesh,Male,NA
+03/07/19,"MP,Godaval Range,North Shahdol Division",Outside Tiger Reserve,Mortality,MP,Madhya Pradesh,NA,NA
+03/16/2019,"Maharashtra,Tipeshwar Wildlife Sanctuary",Outside tiger Reserve,Mortality,MH,Maharashtra,Female,6
+03/17/2019,"Karnataka,Virajpet Division",Outside Tiger Reserve,Mortality,KA,Karnataka,Male,NA
+03/17/2019,Nagarhole,Inside Tiger Reserve,Mortality,KA,Karnataka,Male,NA
+03/22/2019,Kanha,Inside Tiger Reserve,Mortality,MP,Madhya Pradesh,NA,NA
+03/24/2019,Nagarhole,Inside Tiger Reserve,Mortality,KA,Karnataka,NA,NA
+03/27/2019,"UP,South Kheri, Mohammadi Range",Outside Tiger Reserve,Mortality,UP,Uttar Pradesh,Male,NA
+03/28/2019,Mudumalai,Inside Tiger Reserve,Mortality,TN,Tamil Nadu,NA,NA
+04/05/19,"TN,Bommarajapuram North Beat,Megamalai Wildlife Division",Outside Tiger Reserve,Mortality,TN,Tamil Nadu,Male,NA
+04/08/19,"MP,Obdullaganj",Outside Tiger Reserve,Mortality,MP,Madhya Pradesh,Male,NA
+04/08/19,West Bengal,Outside Tiger Reserve,Mortality,WB,West Bengal,NA,NA
+04/11/19,Nagarhole,Inside Tiger Reserve,Mortality,KA,Karnataka,Male,1.5
+04/13/2019,Tadoba,Inside Tiger Reserve,Mortality,MH,Maharashtra,Female,2
+04/14/2019,Dudhwa,Inside Tiger Reserve,Mortality,UP,Uttar Pradesh,NA,NA
+04/16/2019,Bandhavgarh,Inside Tiger Reserve,Mortality,MP,Madhya Pradesh,Male,NA
+04/17/2019,"Andhra Pradesh,Nandyal Division, Compt No. 525",Outside Tiger Reserve,Mortality,AP,Andhra Pradesh,NA,NA
+05/04/19,Jim Corbett,Inside Tiger Reserve,Mortality,UT,Uttarakhand,NA,NA
+05/07/19,Pench,Inside Tiger Reserve,Mortality,MP,Madhya Pradesh,Male,1
+05/08/19,Melghat,Inside Tiger Reserve,Mortality,MH,Maharashtra,Male,NA
+05/08/19,Kaziranga,Inside Tiger Reserve,Mortality,AS,Assam,Male,NA
+05/09/19,"Valmiki,Manguraha Range",Inside Tiger Reserve,Mortality,BH,Bihar,NA,NA
+05/13/2019,"MP,Majhganwa",Outside Tiger Reserve,Mortality,MP,Mahya Pradesh,NA,NA
+05/19/2019,Mudumalai,Inside Tiger Reserve,Mortality,TN,Tamil Nadu,NA,NA
+05/22/2019,Bandhavgarh,Inside Tiger Reserve,Mortality,MP,Madhya Pradesh,Male,6
+05/27/2019,Jim Corbett,Inside Tiger Reserve,Mortality,UT,Uttarakhand,Male,NA
+05/28/2019,Bandipur,Inside Tiger Reserve,Mortality,KA,Karnataka,NA,NA
+06/08/19,Sariska,Inside Tiger Reserve,Mortality,RJ,Rajasthan,Male,8
+06/17/2019,Nagarhole,Inside Tiger Reserve,Mortality,KA,Karnataka,NA,12
+06/19/2019,Bandipur,Inside Tiger Reserve,Mortality,KA,Karnataka,NA,NA
+06/23/2019,"Karnataka,H.D. Kotte Range",Outside Tiger Reserve,Mortality,KA,Karnataka,Male,NA
+06/26/2019,"Maharashtra,Chandrapur Territorial Division",Outside Tiger Reserve,Mortality,MH,Maharashtra,NA,NA
+07/08/19,"Maharashtra,Chimur Range",Outside Tiger Reserve,Mortality,MH,Maharashtra,Female,0.3
+07/08/19,"Maharashtra,Chimur Range",Outside Tiger Reserve,Mortality,MH,Maharashtra,Male,0.5
+07/08/19,"Maharashtra,Chimur  Range",Outside Tiger Reserve,Mortality,MH,Maharashtra,Female,9
+07/12/19,Bandipur,Inside Tiger Reserve,Mortality,KA,Karnataka,Male,NA
+07/14/2019,"TN,Wenlockdowns RF, Passions Valley Range",Outside Tiger Reserve,Mortality,TN,Tamil Nadu,Male,NA
+07/24/2019,Pilibhit,Inside Tiger Reserve,Mortality,UP,Uttar Pradesh,NA,8
+07/27/2019,Bandipur,Inside Tiger Reserve,Mortality,KA,Karnataka,NA,8
+07/30/2019,Bandhavgarh,Inside Tiger Reserve,Mortality,MP,Madhya Pradesh,NA,6.7
+07/30/2019,Bandhavgarh,Inside Tiger Reserve,Mortality,MP,Madhya Pradesh,NA,NA
+07/31/2019,MP,Outside Tiger Reserve,Mortality,MP,Madhya Pradesh,NA,5
+08/11/19,Bandhavgarh,Inside Tiger Reserve,Mortality,MP,Madhya Pradesh,NA,NA
+08/25/2019,Maharashtra,Outside Tiger Reserve,Mortality,MH,Maharashtra,NA,NA
+09/13/2019,Pench,Inside Tiger Reserve,Mortality,MH,Maharashtra,Male,1.7
+09/14/2019,UP,Outside Tiger Reserve,Mortality,UP,Uttar Pradesh,NA,1.5
+09/22/2019,Jim Corbett,Inside Tiger Reserve,Mortality,UT,Uttarakhand,NA,1
+09/23/2019,Bandhavgarh,Inside Tiger Reserve,Mortality,MP,Mahya Pradesh,Male,2
+09/27/2019,Kaziranga,Inside Tiger Reserve,Mortality,AS,Assam,Male,5
+10/03/19,Ranthambore,Inside Tiger Reserve,Mortality,RJ,Rajasthan,NA,10
+10/07/19,Tadoba,Inside Tiger Reserve,Mortality,MH,Maharashtra,Male,4
+10/17/2019,"West Bengal,Hasimara",Outside Tiger Reserve,Mortality,WB,West Bengal,Male,4
+10/17/2019,Sanjay-Dubri,Inside Tiger Reserve,Mortality,MP,Madhya Pradesh,Male,6
+10/27/2019,Mudumalai,Inside Tiger Reserve,Mortality,TN,Tamil Nadu,Male,7
+11/04/19,Kanha,Inside Tiger Reserve,Mortality,MP,Madhya Pradesh,Male,5
+11/07/19,Maharashtra,Outside Tiger Reserve,Mortality,MH,Maharashtra,NA,3
+11/23/2019,"TN,Megamalai WL Division",Outside Tiger Reserve,Mortality,TN,Tamil Nadu,NA,NA
+11/26/2019,"Maharashtra,Central Chanda Wamanpalli",Outside Tiger Reserve,Mortality,MH,Maharashtra,NA,4
+12/07/19,Maharashtra,Outside Tiger Reserve,Mortality,MH,Maharashtra,NA,3
+12/15/2019,"Kanha,Kisli Range",Inside Tiger Reserve,Mortality,MP,Madhya Pradesh,NA,11
+12/16/2019,"Jim Corbett,Bijrani Range",Inside Tiger  Reserve,Mortality,UT,Uttarakhand,Female,4.8
+01/05/19,Telangana,Outside Tiger Reserve,Seizure,TL,Telangana,Male,NA
+01/24/2019,"Telangana,Mandanmari Division",Outside Tiger Reserve,Seizure,TL,Telangana,NA,4.8
+02/11/19,"Satpura,Pachmadi Range",Inside Tiger Reserve,Seizure,MP,Madhya Pradesh,NA,5.7
+05/07/19,"MP,South Seoni",Outside Tiger Reserve,Seizure,MP,Madhya Pradesh,NA,9
+05/09/19,MP,Outside Tiger Reserve,Seizure,MP,Madhya Pradesh,Male,9
+06/09/19,Assam,Outside Tiger Reserve,Seizure,AS,Assam,Male,6
+07/20/2019,"Assam,Karbi Anglong",Outside Tiger Reserve,Seizure,AS,Assam,NA,NA
+12/09/19,"Chattisgarh,Kishanpuri",Inside Tiger Reserve,Seizure,CH,Chattisgarh,NA,3.5

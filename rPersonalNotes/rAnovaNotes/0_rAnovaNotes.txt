@@ -1,0 +1,10 @@
+ANOVA TEST IN R NOTES
+1. AOV
+	1.1. Syntax
+	1.2. Purpose
+	1.3. Proper usage
+		1.3.1. Independent variable as factor type
+		1.3.2. Summary of test values
+		1.3.4. Alterate approach
+2. Post-hoc analysis
+	2.1. Tukey test
